@@ -7,5 +7,9 @@ import pandas as pd
 from torchvision import transforms
 from torchinfo import summary
 from helper_functions import download_data, set_seeds, plot_loss_curves
+import engine
+import data_setup
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
+
+
